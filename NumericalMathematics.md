@@ -126,7 +126,7 @@ contributed packages.
 -   Airy and Bessel functions, for real and complex numbers, are also
     computed in package `r pkg("Bessel")`, with
     approximations for large arguments.
--   Package `r pkg("pracma", priority = "core")` includes
+-   Package `r pkg("pracma")` includes
     special functions, such as error functions and inverses, incomplete
     and complex gamma function, exponential and logarithmic integrals,
     Fresnel integrals, the polygamma and the Dirichlet and Riemann zeta
@@ -202,7 +202,7 @@ numerically integrating univariate functions in R. It applies adaptive
 Gauss-Kronrod quadrature and can handle singularities and unbounded
 domains to a certain extent.
 
--   Package `r pkg("Deriv", priority = "core")` provides an
+-   Package `r pkg("Deriv")` provides an
     extended solution for symbolic differentiation in R; the user can
     add custom derivative rules, and the output for a function will be
     an executable function again.
@@ -240,7 +240,7 @@ domains to a certain extent.
     Gauss-Hermite quadrature.
 -   Adaptive multivariate integration over hyper-rectangles in
     n-dimensional space is available in package
-    `r pkg("cubature")` as function `adaptIntegrate()`,
+    `r pkg("cubature", priority = "core")` as function `adaptIntegrate()`,
     based on a C library of the same name. The integrand functions can
     even be multi-valued.
 -   `vegas()` includes an approach to Monte Carlo integration based on
