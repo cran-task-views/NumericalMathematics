@@ -222,12 +222,16 @@ domains to a certain extent.
 -   `r pkg("pracma")` contains functions for computing
     numerical derivatives, including Richardson extrapolation or complex
     step. `fderiv()` computes numerical derivatives of higher orders.
-    `r pkg("pracma")` has several routines for numerical
+    `r pkg("pracma")` also has several routines for numerical
     integration: adaptive Lobatto quadrature, Romberg integration,
     Newton-Cotes formulas, Clenshaw-Curtis quadrature rules.
     `integral2()` integrates functions in two dimensions, also for
-    domains characterized by polar coordinates or with variable interval
-    limits.
+    polar coordinates or domains with variable interval limits.
+-   `r pkg("cubature", priority = "core")`is a package for adaptive 
+    multivariate integration over hypercubes in n-dimensional space, based 
+    on the C-library 'cubature', resp. for deterministic and Monte-Carlo 
+    integration based on library 'Cuba'. Function 'cubintegrate()' wraps 
+    all the integration methods provided.
 -   Package `r pkg("gaussquad")` contains a collection of
     functions to perform Gaussian quadrature, among them Chebyshev,
     Hermite, Laguerre, and Legendre quadrature rules, explicitly
@@ -235,16 +239,8 @@ domains to a certain extent.
     package `r pkg("statmod")` does a similar job.
 -   `r pkg("GramQuad")` allows for numerical integration
     based on Gram polynomials.
--   Package `r pkg("fastGHQuad")` provides a fast
-    `r pkg("Rcpp")` -based implementation of (adaptive)
-    Gauss-Hermite quadrature.
--   Adaptive multivariate integration over hyper-rectangles in
-    n-dimensional space is available in package
-    `r pkg("cubature", priority = "core")` as function `adaptIntegrate()`,
-    based on a C library of the same name. The integrand functions can
-    even be multi-valued.
--   `vegas()` includes an approach to Monte Carlo integration based on
-    importance sampling.
+-   Package `r pkg("fastGHQuad")` provides a fast `r pkg("Rcpp")`-based 
+    implementation of (adaptive) Gauss-Hermite quadrature.
 -   `r pkg("mvQuad")` provides methods for generating
     multivariate grids that can be used for multivariate integration.
     These grids will be based on different quadrature rules such as
