@@ -1,9 +1,9 @@
 ---
 name: NumericalMathematics
 topic: Numerical Mathematics
-maintainer: Hans W. Borchers
-email: hwb@mailbox.org
-version: 2021-12-29
+maintainer: H.W. Borchers, R. Hankin, S. Sokol
+email: hwb at mailbox.org
+version: 2022-01-09
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -54,9 +54,8 @@ approximation.
 -   `r pkg("SparseM")` provides classes and methods for
     sparse matrices and for solving linear and least-squares problems in
     sparse linear algebra
--   Package `r pkg("rmumps")` provides a wrapper for the
-    MUMPS library, solving large linear systems of equations applying a
-    parallel sparse direct solver
+-   Package `r pkg("rmumps")` provides a wrapper for the MUMPS library, 
+    solving large linear systems of equations applying a sparse direct solver.
 -   `r pkg("sanic")` supports routines for solving (dense
     and sparse) large systems of linear equations; direct and iterative
     solvers from the Eigen C++ library are made available, including
@@ -447,6 +446,19 @@ Note that integers in double precision can be represented exactly up to
     manipulating mathematical expressions, finding exact derivatives,
     performing symbolic matrix computations, or solving ordinary
     differential equations (numerically).
+-   Package `r pkg("rim")` provides an interface to the free and
+    powerful computer algebra system 
+    [Maxima](https://maxima.sourceforge.io/).
+    Results can be output in LaTeX or MathML, and 2D and 3D plots will be 
+    displayed directly. Maxima code chunks can be included in 'RMarkdown' 
+    documents.
+-   Package `r pkg("m2r")` provides a persistent interface to
+    [Macauley2](http://www2.macaulay2.com/Macaulay2/), 
+    an extended software program supporting research in algebraic
+    geometry and commutative algebra. Macauley2 has to be installed
+    independently, otherwise a Macauley2 process in the cloud will be
+    instantiated.
+
 
 ### Python Interfaces
 
@@ -472,6 +484,12 @@ graphical tools available.
     Chambers' `r pkg("XR")` package and his "Extending R"
     book and allow for a structured integration of R with Python resp.
     Julia.
+
+[SageMath](http://www.sagemath.org/) is an open source mathematics
+system based on Python, allowing to run R functions, but also providing
+access to systems like Maxima, GAP, FLINT, and many more math programs.
+SageMath can be freely used through a Web interface at
+[CoCalc](https://cocalc.com/) .
 
 ### MATLAB, Octave, Julia, and other Interfaces
 
@@ -508,27 +526,9 @@ problems and other demanding scientific computations in R.
     structure described in the book "Extending R" by John M. Chambers.
 
 Java Math functions can be employed through the 'rjava' or 'rscala'
-interfaces. Then package `r pkg("commonsMath")` allows
-calling Java JAR files of the Apache Commons Mathematics Library, a
-specialized library for all aspects of numerics, optimization, and
-differential equations.
-
-[SageMath](http://www.sagemath.org/) is an open source mathematics
-system based on Python, allowing to run R functions, but also providing
-access to systems like Maxima, GAP, FLINT, and many more math programs.
-SageMath can be freely used through a Web interface at
-[CoCalc](https://cocalc.com/) .
-
-Package `r pkg("rim")` provides an interface to the free and
-powerful computer algebra system 'Maxima'. Results can be output in
-'LaTeX' or 'MathML' and 2D and 3D plots will be displayed directly.
-'Maxima' code chunks can be included in 'RMarkdown' documents.
-
-Package `r pkg("m2r")` provides a persistent interface to
-Macauley2, an extended software program supporting research in algebraic
-geometry and commutative algebra. Macauley2 has to be installed
-independently, otherwise a Macauley2 process in the cloud will be
-instantiated.
+interfaces. Then package `r pkg("commonsMath")` allows calling Java 
+JAR files of the Apache Commons Mathematics Library, a specialized library 
+for all aspects of numerics, optimization, and differential equations.
 
 Please note that commercial programs such as MATLAB, Maple, or
 Mathematica have facilities to call R functions.
@@ -536,10 +536,10 @@ Mathematica have facilities to call R functions.
 
 
 ### Links
--   [Textbook: Hands-On Matrix Algebra Using R](http://www.worldscientific.com/worldscibooks/10.1142/7814)
--   [Textbook: Introduction to Scientific Programming and Simulation Using R](https://www.routledge.com/Introduction-to-Scientific-Programming-and-Simulation-Using-R/Jones-Maillardet-Robinson/p/book/9781466569997)
--   [Textbook: Numerical Methods in Science and Engineering Using R](https://www.routledge.com/Using-R-for-Numerical-Analysis-in-Science-and-Engineering/Bloomfield/p/book/9781439884485)
--   [Textbook: Computational Methods for Numerical Analysis with R](https://www.crcpress.com/Computational-Methods-for-Numerical-Analysis-with-R/II/p/book/9781498723633)
+-   Textbook: [Hands-On Matrix Algebra Using R](http://www.worldscientific.com/worldscibooks/10.1142/7814)
+-   Textbook: [Introduction to Scientific Programming and Simulation Using R](https://www.routledge.com/Introduction-to-Scientific-Programming-and-Simulation-Using-R/Jones-Maillardet-Robinson/p/book/9781466569997)
+-   Textbook: [Numerical Methods in Science and Engineering Using R](https://www.routledge.com/Using-R-for-Numerical-Analysis-in-Science-and-Engineering/Bloomfield/p/book/9781439884485)
+-   Textbook: [Computational Methods for Numerical Analysis with R](https://www.crcpress.com/Computational-Methods-for-Numerical-Analysis-with-R/II/p/book/9781498723633)
 -   [MATLAB / R Reference (D. Hiebeler)](https://umaine.edu/mathematics/david-hiebeler/computing-software/matlab-r-reference/)
 -   [Abramowitz and Stegun. Handbook of Mathematical Functions](http://people.math.sfu.ca/~cbm/aands/)
 -   [Numerical Recipes: The Art of Numerical Computing](http://numerical.recipes/)
