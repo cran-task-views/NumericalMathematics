@@ -227,7 +227,7 @@ domains to a certain extent.
     Newton-Cotes formulas, Clenshaw-Curtis quadrature rules.
     `integral2()` integrates functions in two dimensions, also for
     polar coordinates or domains with variable interval limits.
--   `r pkg("cubature", priority = "core")`is a package for adaptive 
+-   `r pkg("cubature", priority = "core")` is a package for adaptive 
     multivariate integration over hypercubes in n-dimensional space, based 
     on the C-library 'cubature', resp. for deterministic and Monte-Carlo 
     integration based on library 'Cuba'. Function 'cubintegrate()' wraps 
