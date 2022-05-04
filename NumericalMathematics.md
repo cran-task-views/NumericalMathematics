@@ -318,6 +318,11 @@ package splines creates periodic interpolation splines in function
 -   Package `r pkg("conicfit")` provides several (geometric
     and algebraic) algorithms for fitting circles, ellipses, and conics
     in general.
+-   Package `r pkg("splines2")` provides basis matrices of B-splines,
+    M-splines, I-splines, convex splines (C-splines), periodic
+    splines, natural cubic splines, generalized Bernstein polynomials,
+    and their integrals (except C-splines) and derivatives by
+    closed-form recursive formulas.
 
 ### Root Finding and Fixed Points
 
