@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: H.W. Borchers, R. Hankin, S. Sokol
 email: hwb at mailbox.org
-version: 2022-01-09
+version: 2022-05-05
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -298,6 +298,11 @@ package splines creates periodic interpolation splines in function
     splines. Currently the piecewise linear interpolation part is
     implemented. (It is intended to provide a free replacement for the
     ACM licensed `akima::interp` and `tripack::tri.mesh` functions.)
+-   Package `r pkg("splines2")` provides basis matrices of B-splines,
+    M-splines, I-splines, convex splines (C-splines), periodic
+    splines, natural cubic splines, generalized Bernstein polynomials,
+    and their integrals (except C-splines) and derivatives by
+    closed-form recursive formulas.
 -   Package `r pkg("chebpol")` contains methods for creating
     multivariate Chebyshev and other multilinear interpolations on
     regular grids, e.g. the Floater-Hormann barycenter method, or
@@ -318,11 +323,6 @@ package splines creates periodic interpolation splines in function
 -   Package `r pkg("conicfit")` provides several (geometric
     and algebraic) algorithms for fitting circles, ellipses, and conics
     in general.
--   Package `r pkg("splines2")` provides basis matrices of B-splines,
-    M-splines, I-splines, convex splines (C-splines), periodic
-    splines, natural cubic splines, generalized Bernstein polynomials,
-    and their integrals (except C-splines) and derivatives by
-    closed-form recursive formulas.
 
 ### Root Finding and Fixed Points
 
@@ -461,7 +461,7 @@ Note that integers in double precision can be represented exactly up to
     instantiated.
 
 
-### Python Interfaces
+### Python (and SAGE) Interfaces
 
 Python, through its modules 'NumPy', 'SciPy', 'Matplotlib',
 'SymPy', and 'pandas', has elaborate and efficient numerical and
@@ -533,7 +533,6 @@ for all aspects of numerics, optimization, and differential equations.
 
 Please note that commercial programs such as MATLAB, Maple, or
 Mathematica have facilities to call R functions.
-
 
 
 ### Links
