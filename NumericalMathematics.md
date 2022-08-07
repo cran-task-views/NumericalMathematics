@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: H.W. Borchers, R. Hankin, S. Sokol
 email: hwb at mailbox.org
-version: 2022-05-05
+version: 2022-08-05
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -66,9 +66,7 @@ approximation.
     (Krylov subspace) methods are provided.
 -   `r pkg("svd")` provides R bindings to state-of-the-art
     implementations of singular value decomposition (SVD) and
-    eigenvalue/eigenvector computations. Package
-    `r pkg("ssvd")` will obtain sparse SVDs using an
-    iterative thresholding method, while `r pkg("irlba")`
+    eigenvalue/eigenvector computations. Package `r pkg("irlba")`
     will compute approximate singular values/vectors of large matrices.
 -   Package `r pkg("PRIMME")` interfaces PRIMME, a C library
     for computing eigenvalues and eigenvectors of real symmetric or
@@ -78,8 +76,6 @@ approximation.
 -   The `r pkg("geigen")` package computes generalized
     eigenvalues and -vectors for pairs of matrices and QZ (generalized
     Schur) decompositions.
--   `r pkg("eigeninv")` generates matrices with a given set
-    of eigenvalues ('inverse eigenvalue problem').
 -   Package `r pkg("rARPACK")`, a wrapper for the ARPACK
     library, is typically used to compute only a few
     eigenvalues/vectors, e.g., a small number of largest eigenvalues.
