@@ -319,6 +319,11 @@ package splines creates periodic interpolation splines in function
 -   Package `r pkg("conicfit")` provides several (geometric
     and algebraic) algorithms for fitting circles, ellipses, and conics
     in general.
+-   `r pkg("bspline")` uses B-splines for creating functions interpolating
+    and smooting 1D data. For the latter task, `fitsmbsp()` can also optimize
+    knot positions as well as optionally impose monotonicity and positivity
+    constraints on spline coefficients. Produced functions can be
+    differentiated with `dbsp()` or integrated with `ibsp()`.
 
 ### Root Finding and Fixed Points
 
