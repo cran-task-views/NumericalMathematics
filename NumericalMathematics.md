@@ -337,9 +337,13 @@ routine in R to find roots of univariate functions. There are
 implementations of the bisection algorithm in several contributed
 packages. For root finding with higher precision there is function
 `unirootR()` in the multi-precision package
-`r pkg("Rmpfr")`. And for finding roots of multivariate
+`r pkg("Rmpfr")`. For finding roots of univariate and multivariate
 functions see the following packages:
 
+-   Package `r pkg("itp")` implements the Interpolate, Truncate, Project
+    (ITP) root-finding algorithm. The user provides a univariate (1-dim.)
+    function and the endpoints of an interval where the function values
+    have different signs.
 -   Package `r pkg("rootSolve")` includes function
     `multiroot()` for finding roots of systems of nonlinear (and linear)
     equations; it also contains an extension `uniroot.all()` that
