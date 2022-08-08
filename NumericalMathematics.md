@@ -299,6 +299,10 @@ package splines creates periodic interpolation splines in function
     splines, natural cubic splines, generalized Bernstein polynomials,
     and their integrals (except C-splines) and derivatives by
     closed-form recursive formulas.
+-   `r pkg("bspline")` uses B-splines for creating functions interpolating
+    and smooting 1D data. `fitsmbsp()` can optimize knot positions and
+    impose monotonicity and positivity constraints. Produced functions
+    can be differentiated with `dbsp()` or integrated with `ibsp()`.
 -   Package `r pkg("chebpol")` contains methods for creating
     multivariate Chebyshev and other multilinear interpolations on
     regular grids, e.g. the Floater-Hormann barycenter method, or
@@ -319,11 +323,6 @@ package splines creates periodic interpolation splines in function
 -   Package `r pkg("conicfit")` provides several (geometric
     and algebraic) algorithms for fitting circles, ellipses, and conics
     in general.
--   `r pkg("bspline")` uses B-splines for creating functions interpolating
-    and smooting 1D data. For the latter task, `fitsmbsp()` can also optimize
-    knot positions as well as optionally impose monotonicity and positivity
-    constraints on spline coefficients. Produced functions can be
-    differentiated with `dbsp()` or integrated with `ibsp()`.
 
 ### Root Finding and Fixed Points
 
