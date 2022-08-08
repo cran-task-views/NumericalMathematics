@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: H.W. Borchers, R. Hankin, S. Sokol
 email: hwb at mailbox.org
-version: 2022-08-05
+version: 2022-08-08
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -119,6 +119,8 @@ contributed packages.
     special functions, for example the Airy and Bessel functions,
     elliptic and exponential integrals, the hypergeometric function,
     Lambert's W function, and many more.
+    `r pkg("RcppGSL")` provides an easy-to-use interface between
+    'GSL' data structures and R, using concepts from 'Rcpp'.
 -   Airy and Bessel functions, for real and complex numbers, are also
     computed in package `r pkg("Bessel")`, with
     approximations for large arguments.
@@ -134,9 +136,13 @@ contributed packages.
     functions of a matrix argument through a C++ implementation of Koev
     and Edelman's algorithm.
 -   Elliptic and modular functions are available in package
-    `r pkg("elliptic")`, including the Weierstrass P
-    function and Jacobi's theta functions. There are tools for
-    visualizing complex functions.
+    `r pkg("elliptic")`, e.g., the Weierstrass P function and Jacobi's
+    theta functions. There are tools for visualizing complex functions.
+-   `r pkg("jacobi")` evaluates Jacobi theta and related functions:
+    Weierstrass elliptic functions, Weierstrass sigma and zeta function,
+    Klein j-function, Dedekind eta function, lambda modular function, 
+    Jacobi elliptic functions, Neville theta functions, Eisenstein series.
+    Complex values of the variable are supported.
 -   `r pkg("Carlson")` evaluates Carlson elliptic and
     incomplete elliptic integrals (with compex arguments).
 -   Package `r pkg("expint")` wraps C-functions from the GNU
