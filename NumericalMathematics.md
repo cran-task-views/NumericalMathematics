@@ -402,9 +402,6 @@ Note that integers in double precision can be represented exactly up to
     iterators allow users to generate arrangements in a fast and memory
     efficient manner. Permutations and combinations can be drawn
     with/without replacement and support multisets.
--   Package `r pkg("set6")` implements (as R6 classes) many
-    forms of mathematical sets (sets, tuples, intervals) and allows for
-    standard operations on them (unions, products, differences).
 -   `r pkg("RcppAlgos")` provides flexible functions for
     generating combinations or permutations of a vector with or without
     constraints; the extension package
