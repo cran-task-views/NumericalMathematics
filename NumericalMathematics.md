@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: H.W. Borchers, R. Hankin, S. Sokol
 email: hwb at mailbox.org
-version: 2022-08-08
+version: 2022-12-22
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -309,10 +309,6 @@ package splines creates periodic interpolation splines in function
     and smooting 1D data. `fitsmbsp()` can optimize knot positions and
     impose monotonicity and positivity constraints. Produced functions
     can be differentiated with `dbsp()` or integrated with `ibsp()`.
--   Package `r pkg("chebpol")` contains methods for creating
-    multivariate Chebyshev and other multilinear interpolations on
-    regular grids, e.g. the Floater-Hormann barycenter method, or
-    polyharmonic splines for scattered data.
 -   `r pkg("tripack")` for triangulation of irregularly
     spaced data is a constrained two-dimensional Delaunay triangulation
     package providing both triangulation and generation of Voronoi
