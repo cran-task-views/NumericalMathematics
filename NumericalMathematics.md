@@ -217,10 +217,10 @@ domains to a certain extent.
     differentiation (for univariate functions) by employing dual
     numbers; for a mathematical function its value and its exact first
     derivative are returned.
--   Package `r github("Non-Contradiction/autodiffr")` (on
-    Github) provides an R wrapper for the Julia packages ForwardDiff.jl
-    and ReverseDiff.jl to do automatic differentiation for native R
-    functions.
+-   Package `r github("Non-Contradiction/autodiffr")` (on Github)
+    provides an R wrapper for the Julia packages ForwardDiff.jl
+    and ReverseDiff.jl to do automatic differentiation for native
+    R functions.
 -   `r pkg("pracma")` contains functions for computing
     numerical derivatives, including Richardson extrapolation or complex
     step. `fderiv()` computes numerical derivatives of higher orders.
@@ -398,6 +398,9 @@ Note that integers in double precision can be represented exactly up to
     iterators allow users to generate arrangements in a fast and memory
     efficient manner. Permutations and combinations can be drawn
     with/without replacement and support multisets.
+-   Package `r github("xoopR/set6")` (on Github) implements (as R6 classes)
+    many forms of mathematical sets (sets, tuples, intervals) and allows
+    for standard operations on them (unions, products, differences, etc.).
 -   `r pkg("RcppAlgos")` provides flexible functions for
     generating combinations or permutations of a vector with or without
     constraints; the extension package
