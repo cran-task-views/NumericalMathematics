@@ -192,6 +192,8 @@ can perform polynomial fitting when using `poly()` in the model formula
     `r pkg("jack")`.
 -   The Free Algebra in R package `r pkg("freealg")` handles
     multivariate polynomials with non-commuting indeterminates.
+-   Package `r pkg("spray")` provides functionality for sparse
+    multidimensional arrays, interpreted as multivariate polynomials.
 
 ### Differentiation and Integration
 
