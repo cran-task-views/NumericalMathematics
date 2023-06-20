@@ -194,6 +194,8 @@ can perform polynomial fitting when using `poly()` in the model formula
     multivariate polynomials with non-commuting indeterminates.
 -   Package `r pkg("spray")` provides functionality for sparse
     multidimensional arrays, interpreted as multivariate polynomials.
+-   Package `r pkg("qspray")` provides symbolic calculation and
+    evaluation of multivariate polynomials with rational coefficients.
 
 ### Differentiation and Integration
 
