@@ -377,8 +377,10 @@ Note that integers in double precision can be represented exactly up to
     factorization, prime numbers, twin primes, primitive roots, modular
     inverses, extended GCD, etc. Included are some number-theoretic
     functions like divisor functions or Euler's Phi function.
--   `r pkg("contfrac")` contains various utilities for
-    evaluating continued fractions and partial convergents.
+-   `r pkg("contfrac")` contains various utilities for evaluating
+    continued fractions and partial convergents.
+    `r pkg("contFracR")`Converts numbers to continued fractions and back again.
+    A solver for Pell's Equation is provided.
 -   `r pkg("magic")` creates and investigates magical
     squares and hypercubes, including functions for the manipulation and
     analysis of arbitrarily dimensioned arrays.
