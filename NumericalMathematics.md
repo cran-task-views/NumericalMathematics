@@ -98,9 +98,6 @@ approximation.
     manipulating quaternions and octonians (normed division algebras
     over the real numbers); quaternions can be useful for handling
     rotations in three-dimensional space.
--   `r pkg("clifford")` provides a suite of routines for
-    arbitrary dimensional Clifford algebras and discusses special cases
-    such as Lorentz transforms or quaternion multiplication.
 -   Packages `r pkg("RcppArmadillo")` and
     `r pkg("RcppEigen")` enable the integration of the C++
     template libraries 'Armadillo' resp. 'Eigen' for linear algebra
@@ -465,6 +462,9 @@ Note that integers in double precision can be represented exactly up to
     geometry and commutative algebra. Macauley2 has to be installed
     independently, otherwise a Macauley2 process in the cloud will be
     instantiated.
+-   `r pkg("clifford")` provides a suite of routines for
+    arbitrary dimensional Clifford algebras and discusses special cases
+    such as Lorentz transforms or quaternion multiplication.
 
 
 ### Python (and SAGE) Interfaces
