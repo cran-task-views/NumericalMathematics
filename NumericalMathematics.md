@@ -469,7 +469,9 @@ Note that integers in double precision can be represented exactly up to
     such as Lorentz transforms or quaternion multiplication.
 -   Package `r pkg("weyl") provides functionality for Weyl algebras,
     which has applications in quantum mechanics.
-
+-   Package `r pkg("jordan") provides functionality for working with
+    Jordan algebras, which are commutative but non-associative algebras
+    that obey the Jordan identity $(xy)xx=x(yxx)$.
 
 ### Python (and SAGE) Interfaces
 
