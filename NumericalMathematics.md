@@ -467,6 +467,8 @@ Note that integers in double precision can be represented exactly up to
 -   `r pkg("clifford")` provides a suite of routines for
     arbitrary dimensional Clifford algebras and discusses special cases
     such as Lorentz transforms or quaternion multiplication.
+-   Package `r pkg("weyl") provides functionality for Weyl algebras,
+    which has applications in quantum mechanics.
 
 
 ### Python (and SAGE) Interfaces
