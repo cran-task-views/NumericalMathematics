@@ -467,9 +467,9 @@ Note that integers in double precision can be represented exactly up to
 -   `r pkg("clifford")` provides a suite of routines for
     arbitrary dimensional Clifford algebras and discusses special cases
     such as Lorentz transforms or quaternion multiplication.
--   Package `r pkg("weyl") provides functionality for Weyl algebras,
+-   Package `r pkg("weyl")` provides functionality for Weyl algebras,
     which has applications in quantum mechanics.
--   Package `r pkg("jordan") provides functionality for working with
+-   Package `r pkg("jordan")` provides functionality for working with
     Jordan algebras, which are commutative but non-associative algebras
     that obey the Jordan identity $(xy)xx=x(yxx)$.
 
