@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: Hans W. Borchers, Robin Hankin, Serguei Sokol
 email: hwb@mailbox.org
-version: 2023-06-20
+version: 2023-07-25
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -176,8 +176,7 @@ can perform polynomial fitting when using `poly()` in the model formula
     and combine these polynomials of several variables.
 -   Package `r pkg("mpoly")` facilitates symbolic
     manipulations on multivariate polynomials, including basic
-    differential calculus operations on polynomials, plus some Groebner
-    basis calculations.
+    differential calculus operations on polynomials.
 -   `r pkg("mvp")` enables fast manipulation of symbolic
     multivariate polynomials, using print and coercion methods from the
     'mpoly' package, but offers speed improvements.
@@ -185,17 +184,15 @@ can perform polynomial fitting when using `poly()` in the model formula
     of functions to construct orthogonal polynomials and their
     recurrence relations, among them Chebyshev, Hermite, and Legendre
     polynomials, as well as spherical and ultraspherical polynomials.
-    There are functions to operate on these polynomials.
 -   Symbolic calculation and evaluation of the Jack polynomials, zonal
-    polynomials (appear in random matrix theory), and Schur polynomials
-    (appear in combinatorics) is available in package
-    `r pkg("jack")`.
+    and Schur polynomials are available in package `r pkg("jack")`.
 -   The Free Algebra in R package `r pkg("freealg")` handles
     multivariate polynomials with non-commuting indeterminates.
 -   Package `r pkg("spray")` provides functionality for sparse
     multidimensional arrays, interpreted as multivariate polynomials.
 -   Package `r pkg("qspray")` provides symbolic calculation and
-    evaluation of multivariate polynomials with rational coefficients.
+    evaluation of multivariate polynomials with rational coefficients,
+    plus some Groebner basis calculations.
 
 ### Differentiation and Integration
 
