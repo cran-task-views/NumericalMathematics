@@ -14,16 +14,28 @@ analysis. It shows that R is a viable computing environment for
 implementing and applying numerical methods, also outside the realm of
 statistics.
 
-The task view will *not* cover differential equations, optimization
-problems and solvers, or packages and functions operating on times
-series, because all these topics are treated extensively in the
-corresponding task views `r view("DifferentialEquations")`,
+The task view will *not* cover differential equations, optimization problems and solvers,
+or packages and functions operating on times series, because all these topics are treated
+extensively in the corresponding task views
+`r view("DifferentialEquations")`,
 `r view("Optimization")`, and
-`r view("TimeSeries")`. All these task views together will
-provide a good selection of what is available in R for the area of
-numerical mathematics. The
-`r view("HighPerformanceComputing")` task view with its many
-links for parallel computing may also be of interest.
+`r view("TimeSeries")`.
+All these task views together will provide a good selection of what is available in R
+for the area of numerical mathematics. The `r view("HighPerformanceComputing")` task view
+with its many links for parallel computing may also be of interest.
+
+**Contents**
+
+- [Numerical Linear Algebra](#numerical-linear-algebra)
+- [Special Functions](#special-functions)
+- [Polynomials](#polynomials)
+- [Differentiation and Integration](#differentiation-and-integration)
+- [Interpolation and Approximation](#interpolation-and-approximation)
+- [Root Finding and Fixed Points](#root-finding-and-fixed-points)
+- [Discrete Mathematics and Number Theory](#discrete-mathematics-and-number-theory)
+- [Multiprecision and Symbolic Calculations](#multiprecision-and-symbolic-calculations)
+- [Python and SAGE Interfaces](#python-and-sage-interfaces)
+- [MATLAB Octave Julia and other Interfaces](#matlab-octave-julia-and-other-interfaces)
 
 The task view has been created to provide an overview of the topic. If
 some packages are missing or certain topics in numerical math should be
@@ -416,7 +428,7 @@ Note that integers in double precision can be represented exactly up to
     `r pkg("primefactr")` uses prime factorization for
     computations such as reducing ratios of large factorials.
 
-### Multi-Precision Arithmetic and Symbolic Mathematics
+### Multiprecision and Symbolic Calculations
 
 -   Multiple precision arithmetic is available in R through package
     `r pkg("gmp")` that interfaces to the GMP C library.
@@ -474,7 +486,7 @@ Note that integers in double precision can be represented exactly up to
     Jordan algebras, which are commutative but non-associative algebras
     that obey the Jordan identity $(xy)xx=x(yxx)$.
 
-### Python (and SAGE) Interfaces
+### Python and SAGE Interfaces
 
 Python, through its modules 'NumPy', 'SciPy', 'Matplotlib',
 'SymPy', and 'pandas', has elaborate and efficient numerical and
@@ -505,7 +517,7 @@ access to systems like Maxima, GAP, FLINT, and many more math programs.
 SageMath can be freely used through a Web interface at
 [CoCalc](https://cocalc.com/) .
 
-### MATLAB, Octave, Julia, and other Interfaces
+### MATLAB Octave Julia and other Interfaces
 
 Interfaces to numerical computation software such as MATLAB (commercial)
 or Octave (free) will be important when solving difficult numerical
