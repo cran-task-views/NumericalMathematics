@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: Hans W. Borchers, Robin Hankin, Serguei Sokol
 email: hwb@mailbox.org
-version: 2023-07-25
+version: 2023-08-18
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -205,6 +205,9 @@ can perform polynomial fitting when using `poly()` in the model formula
 -   Package `r pkg("qspray")` provides symbolic calculation and
     evaluation of multivariate polynomials with rational coefficients,
     plus some Groebner basis calculations.
+-   Package `r pkg("minimaxApprox")` implements the algorithm of Remez (1962)
+    for polynomial minimax approximation and that of Cody et al. (1968)
+    for rational minimax approximations.
 
 ### Differentiation and Integration
 
