@@ -430,6 +430,8 @@ Note that integers in double precision can be represented exactly up to
     functions for identifying and generating prime numbers. And
     `r pkg("primefactr")` uses prime factorization for
     computations such as reducing ratios of large factorials.
+-   Package `r pkg("frab")` provides methods to "add" two tables
+    with the free Abelian group as the underlying structure.
 
 ### Multiprecision and Symbolic Calculations
 
