@@ -482,14 +482,17 @@ Note that integers in double precision can be represented exactly up to
     geometry and commutative algebra. Macauley2 has to be installed
     independently, otherwise a Macauley2 process in the cloud will be
     instantiated.
--   `r pkg("clifford")` provides a suite of routines for
+-   There are several packages for working with algebras over the real numbers.
+    `r pkg("clifford")` provides a suite of routines for
     arbitrary dimensional Clifford algebras and discusses special cases
-    such as Lorentz transforms or quaternion multiplication.
--   Package `r pkg("weyl")` provides functionality for Weyl algebras,
-    which has applications in quantum mechanics.
--   Package `r pkg("jordan")` provides functionality for working with
-    Jordan algebras, which are commutative but non-associative algebras
-    that obey the Jordan identity $(xy)xx=x(yxx)$.
+    such as Lorentz transforms or quaternion multiplication.  Package
+    `r pkg("weyl")` provides functionality for Weyl algebras, which have
+    applications in quantum mechanics. Package `r pkg("stokes")` works
+    with the algebra of diffrential $k$-forms as used in exterior calculus
+    (these packages all use `r pkg("disordR")` discipline).  Package
+    `r pkg("jordan")` provides functionality for working with Jordan algebras,
+    which are commutative but non-associative algebras that obey the Jordan
+    identity $(xy)xx=x(yxx)$.
 
 ### Python and SAGE Interfaces
 
