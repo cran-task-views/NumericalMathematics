@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: Hans W. Borchers, Robin Hankin, Serguei Sokol
 email: hwb@mailbox.org
-version: 2024-06-12
+version: 2024-07-06
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -141,9 +141,6 @@ contributed packages.
 -   The hypergeometric (and generalized hypergeometric) function, is
     computed in `r pkg("hypergeo")`, including
     transformation formulas and special values of the parameters.
--   `r pkg("HypergeoMat")` evaluates the hypergeometric
-    functions of a matrix argument through a C++ implementation of Koev
-    and Edelman's algorithm.
 -   Elliptic and modular functions are available in package
     `r pkg("elliptic")`, e.g., the Weierstrass P function and Jacobi's
     theta functions. There are tools for visualizing complex functions.
