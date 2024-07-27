@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: Hans W. Borchers, Robin Hankin, Serguei Sokol
 email: hwb@mailbox.org
-version: 2024-07-06
+version: 2024-07-27
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -63,10 +63,19 @@ approximation.
     square root of square matrices, but also powers of matrices or the
     Frechet derivative. `expm()` is to be preferred to the function with
     the same name in `r pkg("Matrix")`.
+-   `r pkg("QZ")` provides generalized eigenvalues and eigenvectors
+    using a generalized Schur decomposition (QZ decomposition).
+    It is able to compute the exponential of a matrix quite efficiently.
+-   `r pkg("EigenR")` with complex Linear Algebra functions for determinant,
+    rank, inverse, pseudo-inverse, kernel and image, QR decomposition, Cholesky 
+    decomposition, (complex) Schur decomposition, and Hessenberg decomposition.
+-   `r pkg("geigen")` calculates Generalized Eigenvalues, the Generalized Schur
+    Decomposition and the Generalized Singular Value Decomposition of a pair
+    of (complex) matrices.
 -   `r pkg("SparseM")` provides classes and methods for
     sparse matrices and for solving linear and least-squares problems in
     sparse linear algebra
--   Package `r pkg("rmumps")` provides a wrapper for the MUMPS library, 
+-   `r pkg("rmumps")` provides a wrapper for the MUMPS library, 
     solving large linear systems of equations applying a sparse direct solver.
 -   `r pkg("sanic")` supports routines for solving (dense
     and sparse) large systems of linear equations; direct and iterative
@@ -85,9 +94,6 @@ approximation.
     complex Hermitian matrices. It will find largest, smallest, or
     interior eigen-/singular values and will apply preconditioning to
     accelerate convergence.
--   The `r pkg("geigen")` package computes generalized
-    eigenvalues and -vectors for pairs of matrices and QZ (generalized
-    Schur) decompositions.
 -   Package `r pkg("rARPACK")`, a wrapper for the ARPACK
     library, is typically used to compute only a few
     eigenvalues/vectors, e.g., a small number of largest eigenvalues.
