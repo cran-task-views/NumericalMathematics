@@ -167,6 +167,8 @@ contributed packages.
     natural logarithms of the Gamma function for large values.
 -   Package `r pkg("lamW")` implements both real-valued
     branches of the Lambert W function (using Rcpp).
+-   `r pkg("flint")`; see section 'Discrete Mathematics and Number
+    Theory'.
 
 ### Polynomials
 
@@ -211,6 +213,8 @@ can perform polynomial fitting when using `poly()` in the model formula
 -   Package `r pkg("minimaxApprox")` implements the algorithm of Remez (1962)
     for polynomial minimax approximation and that of Cody et al. (1968)
     for rational minimax approximations.
+-   `r pkg("flint")`; see section 'Discrete Mathematics and Number
+    Theory'.
 
 ### Differentiation and Integration
 
@@ -435,6 +439,22 @@ Note that integers in double precision can be represented exactly up to
     computations such as reducing ratios of large factorials.
 -   Package `r pkg("frab")` provides methods to "add" two tables
     with the free Abelian group as the underlying structure.
+-   `r pkg("flint")` is an R interface to FLINT
+    (<https://flintlib.org/>), a C library for number theory.  FLINT
+    provides C types and functions for arbitrary precision
+    representation of and operations on standard rings (the integers,
+    the integers modulo *n*, the rational, *p*-adic, real, and complex
+    numbers) as well as vectors, matrices, polynomials, and power
+    series over rings.  FLINT implements midpoint-interval (or "ball")
+    arithmetic in the real and complex numbers, enabling computation
+    in arbitrary precision with rigorous propagation of errors.  FLINT
+    provides ball arithmetic implementations of many special
+    mathematical functions, with high coverage of reference works such
+    as the NIST Digital Library of Mathematical Functions
+    (<https://dlmf.nist.gov/>).  The R interface is incomplete and
+    extended "as needed"; users wanting an R interface to a certain C
+    type or function are encouraged to submit a request using
+    `bug.report(package = "flint")`.
 
 ### Multiprecision and Symbolic Calculations
 
@@ -496,6 +516,8 @@ Note that integers in double precision can be represented exactly up to
     `r pkg("jordan")` provides functionality for working with Jordan algebras,
     which are commutative but non-associative algebras that obey the Jordan
     identity $(xy)xx=x(yxx)$.
+-   `r pkg("flint")`; see section 'Discrete Mathematics and Number
+    Theory'.
 
 ### Python and SAGE Interfaces
 
