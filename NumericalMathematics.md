@@ -121,6 +121,11 @@ approximation.
     template libraries 'Armadillo' resp. 'Eigen' for linear algebra
     applications written in C++ and integrated in R using
     `r pkg("Rcpp")` for performance and ease of use.
+-   `r pkg("flint")` is an R interface to C library FLINT, which
+    provides types and functions for representing and operating on
+    matrices over standard rings, including the integers, the integers
+    modulo *n*, finite fields, and the rational, *p*-adic, real, and
+    complex numbers.
 
 ### Special Functions
 
@@ -167,8 +172,11 @@ contributed packages.
     natural logarithms of the Gamma function for large values.
 -   Package `r pkg("lamW")` implements both real-valued
     branches of the Lambert W function (using Rcpp).
--   `r pkg("flint")`; see section 'Discrete Mathematics and Number
-    Theory'.
+-   `r pkg("flint")` is an R interface to C library FLINT, which
+    implements the analytic continuations of many special functions,
+    with high coverage of reference works such as the NIST Digital
+    Library of Mathematical Functions.  Implementations support real
+    and complex arguments and computation to arbitrary precision.
 
 ### Polynomials
 
@@ -213,8 +221,11 @@ can perform polynomial fitting when using `poly()` in the model formula
 -   Package `r pkg("minimaxApprox")` implements the algorithm of Remez (1962)
     for polynomial minimax approximation and that of Cody et al. (1968)
     for rational minimax approximations.
--   `r pkg("flint")`; see section 'Discrete Mathematics and Number
-    Theory'.
+-   `r pkg("flint")` is an R interface to C library FLINT, which
+    provides types and functions for representing and operating on
+    polynomials over standard rings, including the integers, the
+    integers modulo *n*, finite fields, and the rational, *p*-adic,
+    real, and complex numbers.
 
 ### Differentiation and Integration
 
@@ -439,22 +450,17 @@ Note that integers in double precision can be represented exactly up to
     computations such as reducing ratios of large factorials.
 -   Package `r pkg("frab")` provides methods to "add" two tables
     with the free Abelian group as the underlying structure.
--   `r pkg("flint")` is an R interface to FLINT
-    (<https://flintlib.org/>), a C library for number theory.  FLINT
-    provides C types and functions for arbitrary precision
-    representation of and operations on standard rings (the integers,
-    the integers modulo *n*, the rational, *p*-adic, real, and complex
-    numbers) as well as vectors, matrices, polynomials, and power
-    series over rings.  FLINT implements midpoint-interval (or "ball")
-    arithmetic in the real and complex numbers, enabling computation
-    in arbitrary precision with rigorous propagation of errors.  FLINT
-    provides ball arithmetic implementations of many special
-    mathematical functions, with high coverage of reference works such
-    as the NIST Digital Library of Mathematical Functions
-    (<https://dlmf.nist.gov/>).  The R interface is incomplete and
-    extended "as needed"; users wanting an R interface to a certain C
-    type or function are encouraged to submit a request using
-    `bug.report(package = "flint")`.
+-   `r pkg("flint")` is an R interface to C library FLINT, which
+    provides types and functions for representing and operating on
+    standard rings, including the integers, the integers modulo *n*,
+    finite fields, and the rational, *p*-adic, real, and complex
+    numbers.  For arbitrary precision signed integers, it provides
+    standard and modular arithmetic, greatest common divisor, prime
+    factorization, integer order roots, integer powers, integer base
+    logarithms, integer testing (divisibility, primality, perfect
+    power), special functions of the integers, random number
+    generation, and many other features relevant to computational
+    number theory.
 
 ### Multiprecision and Symbolic Calculations
 
@@ -516,8 +522,12 @@ Note that integers in double precision can be represented exactly up to
     `r pkg("jordan")` provides functionality for working with Jordan algebras,
     which are commutative but non-associative algebras that obey the Jordan
     identity $(xy)xx=x(yxx)$.
--   `r pkg("flint")`; see section 'Discrete Mathematics and Number
-    Theory'.
+-   `r pkg("flint")` is an R interface to C library FLINT, which
+    implements arbitrary precision integer and (real and complex)
+    floating-point types designed to be more efficient or have greater
+    range than types provided by GNU MP, MPFR, and MPC.  It supports
+    midpoint-interval (or "ball") arithmetic, enabling computation in
+    arbitrary precision with rigorous propagation of rounding errors.
 
 ### Python and SAGE Interfaces
 
