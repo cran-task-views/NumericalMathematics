@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: Hans W. Borchers, Robin Hankin, Serguei Sokol
 email: hwb@mailbox.org
-version: 2024-07-27
+version: 2025-03-09
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
