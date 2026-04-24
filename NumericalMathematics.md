@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: Hans W. Borchers, Robin Hankin, Serguei Sokol
 email: hwb@mailbox.org
-version: 2025-03-09
+version: 2026-04-24
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -66,9 +66,6 @@ approximation.
 -   `r pkg("QZ")` provides generalized eigenvalues and eigenvectors
     using a generalized Schur decomposition (QZ decomposition).
     It is able to compute the exponential of a matrix quite efficiently.
--   `r pkg("EigenR")` with complex Linear Algebra functions for determinant,
-    rank, inverse, pseudo-inverse, kernel and image, QR decomposition, Cholesky 
-    decomposition, (complex) Schur decomposition, and Hessenberg decomposition.
 -   `r pkg("geigen")` calculates Generalized Eigenvalues, the Generalized Schur
     Decomposition and the Generalized Singular Value Decomposition of a pair
     of (complex) matrices.
@@ -209,15 +206,10 @@ can perform polynomial fitting when using `poly()` in the model formula
     of functions to construct orthogonal polynomials and their
     recurrence relations, among them Chebyshev, Hermite, and Legendre
     polynomials, as well as spherical and ultraspherical polynomials.
--   Symbolic calculation and evaluation of the Jack polynomials, zonal
-    and Schur polynomials are available in package `r pkg("jack")`.
 -   The Free Algebra in R package `r pkg("freealg")` handles
     multivariate polynomials with non-commuting indeterminates.
 -   Package `r pkg("spray")` provides functionality for sparse
     multidimensional arrays, interpreted as multivariate polynomials.
--   Package `r pkg("qspray")` provides symbolic calculation and
-    evaluation of multivariate polynomials with rational coefficients,
-    plus some Groebner basis calculations.
 -   Package `r pkg("minimaxApprox")` implements the algorithm of Remez (1962)
     for polynomial minimax approximation and that of Cody et al. (1968)
     for rational minimax approximations.
@@ -549,10 +541,6 @@ graphical tools available.
     process running `r pkg("Rserve")` as an RPC gateway.
     This R process can run on a remote machine, variable access and
     function calls will be delegated through the network.
--   `r pkg("XRPython")` (and 'XRJulia') are based on John
-    Chambers' `r pkg("XR")` package and his "Extending R"
-    book and allow for a structured integration of R with Python resp.
-    Julia.
 
 [SageMath](http://www.sagemath.org/) is an open source mathematics
 system based on Python, allowing to run R functions, but also providing
@@ -590,9 +578,6 @@ problems and other demanding scientific computations in R.
     oriented interface for integrating Julia with R; imported Julia
     functions can be called as R functions; data structures are
     converted automatically.
--   Package `r pkg("XRJulia")` provides an interface from R
-    to computations in the Julia language, based on the interface
-    structure described in the book "Extending R" by John M. Chambers.
 
 Java Math functions can be employed through the 'rjava' or 'rscala'
 interfaces. Then package `r pkg("commonsMath")` allows calling Java 
