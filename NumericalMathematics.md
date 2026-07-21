@@ -3,7 +3,7 @@ name: NumericalMathematics
 topic: Numerical Mathematics
 maintainer: Hans W. Borchers, Robin Hankin, Serguei Sokol
 email: hwb@mailbox.org
-version: 2026-04-24
+version: 2026-07-20
 source: https://github.com/cran-task-views/NumericalMathematics/
 ---
 
@@ -86,11 +86,6 @@ approximation.
     implementations of singular value decomposition (SVD) and
     eigenvalue/eigenvector computations. Package `r pkg("irlba")`
     will compute approximate singular values/vectors of large matrices.
--   Package `r pkg("PRIMME")` interfaces PRIMME, a C library
-    for computing eigenvalues and eigenvectors of real symmetric or
-    complex Hermitian matrices. It will find largest, smallest, or
-    interior eigen-/singular values and will apply preconditioning to
-    accelerate convergence.
 -   Package `r pkg("rARPACK")`, a wrapper for the ARPACK
     library, is typically used to compute only a few
     eigenvalues/vectors, e.g., a small number of largest eigenvalues.
@@ -244,6 +239,10 @@ domains to a certain extent.
     provides an R wrapper for the Julia packages ForwardDiff.jl
     and ReverseDiff.jl to do automatic differentiation for native
     R functions.
+-   Using package `r pkg("pnd")`, numerical derivatives (of arbitrary
+    order), gradients, Jacobians, and Hessians can be calculated through
+    finite-difference formulae, with optimal step-size selection to
+    improve accuracy; parallel capabilities are included.
 -   `r pkg("pracma")` contains functions for computing
     numerical derivatives, including Richardson extrapolation or complex
     step. `fderiv()` computes numerical derivatives of higher orders.
